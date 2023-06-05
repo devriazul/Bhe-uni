@@ -1,0 +1,28 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.topbar {
+    height: 45px;
+    background-color: #182D8A;
+    color: #ffff;
+}
+
+.search-card {
+    background: linear-gradient(90deg, #EF3F36 -1.43%, #F68B25 95.71%);
+}
+
+.blue-button {
+    background: linear-gradient(270deg, #273B93 40.6%, #1DBBED 104.81%);
+    color: #ffff;
+}
+
+.white-button {
+    background: white;
+}
+
+.white-button:hover {
+    background: linear-gradient(270deg, #273B93 40.6%, #1DBBED 104.81%);
+    color: #ffff;
+}
