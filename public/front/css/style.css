@@ -1,0 +1,193 @@
+@font-face {
+  font-family: centuryGothic;
+  src: url(./fonts/CenturyGothic.otf) format('otf'),
+  url(./fonts/CenturyGothic.ttf) format('ttf') ;
+}
+body{
+  font-family: 'centuryGothic',sans-serif!important;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.topbar{
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'centuryGothic',sans-serif!important;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.menubar{
+  font-family: 'Gothic A1', sans-serif!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-title1{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F37124;
+}
+.hero-title2{
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-title3{
+  color: #F37124;
+}
+.job-search-title{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.search-button{
+  border-radius: 30px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 6px 100px;
+  font-family: Gothic A1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.job-caption{
+  font-family: Century Gothic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.job-caption2{
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Century Gothic;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.highligh-secondary{
+  color: #F47025;
+}
+.highligh-primary{
+  color: #20356D;
+}
+.primary-color{
+    color:white ;
+    background-color:#20356D ;
+}
+.secondary-color{
+    background-color:#F37124 !important;
+    color:white ;
+}
+.counting-item {
+    text-align: center;
+}
+.counting-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+}
+.testimonial-item {
+    text-align: center;
+  }
+.testimonial-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+.carousel-indicators li {
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.carousel-indicators .active {
+  background-color: #007bff;
+}
+.benefit-card {
+  text-align: center;
+  padding: 20px;
+}
+.benefit-icon {
+  font-size: 36px;
+  color: #007bff;
+}
+a{
+  text-decoration: none!important;
+}
+.footer-menubar{
+  background: url('../img/img_footer.png');
+  background-color: #20356D;
+}
+.submit-button{
+  display: flex;
+  width: 222px;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  background-color: #20356D;
+  color: white;
+  border-radius: 5px;
+}
+.card-custom{
+  border-width: 1px 0!important;
+}
+.share-popup {
+  display: none;
+  position: absolute;
+  top: 86px;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 1000;
+}
+
+.share-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#social-links ul{
+    list-style: none;
+}
+.share-button{
+  cursor: grab!important;
+}
+.active>.page-link, .page-link.active {
+  background-color:#20356D !important;
+  border-color:#20356D!important;
+  color: white!important;
+}
+.page-link{
+  color: #20356D!important;
+}
+dl, ol, ul{
+  margin-bottom: 0!important;
+}
+ol, ul{
+  padding-left: 1rem!important;
+}
+.fab{
+  font-size: 30px!important;
+}
+.fa-facebook-square{
+  color: #1C8DCA!important;
+}
+.fa-linkedin{
+  color: #0C64C5!important;
+}
+.fa-twitter{
+  color: #00ABEC!important;
+}
+.fa-whatsapp{
+  color: #46E964!important;
+}
