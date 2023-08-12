@@ -129,7 +129,7 @@
         </div>
         <!-- Column 2 - About -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary">About</h6>
+          <h6 class="highligh-secondary ms-md-3">About</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Home</a></li>
             <li><a class="text-white" href="#">We Are</a></li>
@@ -141,7 +141,7 @@
         </div>
         <!-- Column 3 - Links -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary">Links</h6>
+          <h6 class="highligh-secondary ms-md-3">Links</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Become a agent</a></li>
             <li><a class="text-white" href="#">Accommodation</a></li>
