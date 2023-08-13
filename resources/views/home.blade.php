@@ -6,7 +6,7 @@
             <div class="col-md-6 d-flex align-items-center">
                 <div class="primary-color">
                     <h1 class="fw-bold">Unlock Your Potential with BHE</h1>
-                    <p>Boost Education Service has undergone a strategic transformation. It is now an AI-powered EdTech platform. Our primary objective is to facilitate your seamless integration with renowned universities and colleges worldwide. Our advanced technology-driven platform now empowers our students to leverage global educational opportunities more adeptly.</p>
+                    <p class="py-3">Boost Education Service has undergone a strategic transformation. It is now an AI-powered EdTech platform. Our primary objective is to facilitate your seamless integration with renowned universities and colleges worldwide. Our advanced technology-driven platform now empowers our students to leverage global educational opportunities more adeptly.</p>
                     <button>Check Eligibility</button>
                     <button>Apply Now</button>
                 </div>
