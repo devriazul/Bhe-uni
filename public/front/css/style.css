@@ -37,6 +37,9 @@ body{
     background-color:#F37124 !important;
     color:white ;
 }
+.secondary-light-background{
+  background-color: #FEF1E9;
+}
 a{
   text-decoration: none!important;
 }
@@ -50,7 +53,11 @@ a{
   padding: 5px 50px!important;
   border: 2px solid white!important;
 }
+.border-left{
+  border-left: 2px solid white;
+}
 .footer-menubar{
   background: url('../img/img_footer.png');
   background-color: #20356D;
+  background-size:cover;
 }
