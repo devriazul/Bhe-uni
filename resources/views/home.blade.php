@@ -227,15 +227,15 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h2 class="fw-bold">4000+</h2>
-                        <h6>Course</h6>
+                        <h5>Course</h5>
                     </div>
                     <div class="col-md-4 border-left">
                         <h2 class="fw-bold">75+</h2>
-                        <h6>UK University</h6>
+                        <h5>UK University</h5>
                     </div>
                     <div class="col-md-4 border-left">
                         <h2 class="fw-bold">5000+</h2>
-                        <h6>Admission Success</h6>
+                        <h5>Admission Success</h5>
                     </div>
                 </div>
             </div>
