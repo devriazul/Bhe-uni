@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row py-3">
             <div class="col-md-6 d-flex align-items-center">
-                <div class="">
-                    <h1>Unlock Your Potential with BHE</h1>
+                <div class="primary-color">
+                    <h1 class="fw-bold">Unlock Your Potential with BHE</h1>
                     <p>Boost Education Service has undergone a strategic transformation. It is now an AI-powered EdTech platform. Our primary objective is to facilitate your seamless integration with renowned universities and colleges worldwide. Our advanced technology-driven platform now empowers our students to leverage global educational opportunities more adeptly.</p>
                     <button>Check Eligibility</button>
                     <button>Apply Now</button>
@@ -223,18 +223,18 @@
     </div>
     <div class="container px-5 mb-5" style="margin-top: -70px">
         <div class="px-5">
-            <div class="card highligh-secondary text-center py-5">
+            <div class="card highligh-secondary text-center py-5 mx-md-5">
                 <div class="row">
                     <div class="col-md-4">
-                        <h2 class="fw-bold">4000+</h2>
+                        <h2 id="courseNumber" class="fw-bold">0</h2>
                         <h5>Course</h5>
                     </div>
                     <div class="col-md-4 border-left">
-                        <h2 class="fw-bold">75+</h2>
+                        <h2 id="universityNumber" class="fw-bold">0</h2>
                         <h5>UK University</h5>
                     </div>
                     <div class="col-md-4 border-left">
-                        <h2 class="fw-bold">5000+</h2>
+                        <h2 id="successNumber" class="fw-bold">0</h2>
                         <h5>Admission Success</h5>
                     </div>
                 </div>
@@ -242,4 +242,72 @@
         </div>
     </div>
 {{-- Why Choose section End --}}
+
+{{-- Study section Start --}}
+    <div class="container py-5 primary-color">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="fw-bold">Study in the UK</h3>
+                    <p class="py-3">Studying in the United Kingdom offers a world-class education with a rich academic heritage and diverse cultural experiences. As an education consultancy specializing in UK universities, we provide comprehensive guidance to help you make the most of your educational opportunities in the UK...</p>
+                    <a href=""><small>Learn More Now ></small></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="{{ asset('front/img/home/Rectangle 6993.png') }}" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+{{-- Study section End --}}
+
+{{-- EU and Home section Start --}}
+    <div class="container py-5 primary-color">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <img src="{{ asset('front/img/home/Rectangle 6993-1.png') }}" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="fw-bold">EU and Home Students</h3>
+                    <p class="py-3">Our expert student consultants cater to all your university needs. Whether you have previous qualifications from UK, EU or Overseas, our consultants will help you get admitted to one of the most prestigious Universities in the UK. If you don’t have work experience, we can still help you realise your dreams...</p>
+                    <a href=""><small>Learn More Now ></small></a>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- EU and Home section End --}}
+
+{{-- International Students Start --}}
+    <div class="container py-5 primary-color">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="fw-bold">International Students</h3>
+                    <p class="py-3">International students choose the UK for its renowned education system, prestigious universities, diverse courses, and inclusive society. With dynamic cities and picturesque landscapes, it offers an attractive lifestyle. Scholarships and funding options alleviate financial constraints. A UK degree holds global recognition...</p>
+                    <a href=""><small>Learn More Now ></small></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="{{ asset('front/img/home/Rectangle 6993-2.png') }}" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+{{-- International Students section End --}}
+
+{{-- Immigration and Visa Assistance section Start --}}
+    <div class="container py-5 primary-color">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <img src="{{ asset('front/img/home/Rectangle 6993-3.png') }}" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <h3 class="fw-bold">Immigration and Visa Assistance</h3>
+                    <p class="py-3">In partnership with leading immigration attorneys and reputable law firms, we are committed to offering our international students comprehensive visa guidance and application support.</p>
+                    <a href=""><small>Learn More Now ></small></a>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Immigration and Visa Assistance section End --}}
 @endsection

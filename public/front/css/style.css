@@ -15,7 +15,7 @@ body{
   font-weight: 700;
   line-height: 140%;
 }
-.menubar{
+.menubar,h1,h2,h3,h4,h5,h6{
   font-family: 'Gothic A1', sans-serif!important;
   font-size: 18px;
   font-style: normal;

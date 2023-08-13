@@ -128,7 +128,7 @@
         </div>
         <!-- Column 2 - About -->
         <div class="col-md-3 col-12">
-          <h6 class="secondary-color ms-md-3">About</h6>
+          <h6 class="secondary-color">About</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Home</a></li>
             <li><a class="text-white" href="#">We Are</a></li>
@@ -140,7 +140,7 @@
         </div>
         <!-- Column 3 - Links -->
         <div class="col-md-3 col-12">
-          <h6 class="secondary-color ms-md-3">Links</h6>
+          <h6 class="secondary-color">Links</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Become a agent</a></li>
             <li><a class="text-white" href="#">Accommodation</a></li>
@@ -168,5 +168,6 @@
 
   <!-- Footer section end -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="{{ asset('front/js/style.js') }}"></script>
 </body>
 </html>
