@@ -23,22 +23,32 @@ body{
   line-height: normal;
 }
 
-.highligh-secondary{
+.primary-color{
+  color: #20356D;
+}
+.secondary-color{
   color: #F47025;
 }
 .highligh-primary{
-  color: #20356D;
-}
-.primary-color{
     color:white ;
     background-color:#20356D ;
 }
-.secondary-color{
+.highligh-secondary{
     background-color:#F37124 !important;
     color:white ;
 }
 a{
   text-decoration: none!important;
+}
+
+.search-section{
+  background: url('../img/home/Abstract Background.png');
+  /* height: 250px; */
+  background-size:cover;
+}
+.search-button{
+  padding: 5px 50px!important;
+  border: 2px solid white!important;
 }
 .footer-menubar{
   background: url('../img/img_footer.png');

@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ (!empty($page_title))?$page_title:'' }}</title>
+  <title>BHE UNI - Home</title>
   <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{ asset('front/img/bheuni.ico') }}" type="image/x-icon">
 
   <!-- font family css  -->
@@ -23,7 +22,7 @@
   <!-- Header Section -->
   <header class="bg-light">
     <!-- Top Bar -->
-    <div class="py-2 primary-color d-none d-md-block">
+    <div class="py-2 highligh-primary d-none d-md-block">
       <div class="container d-flex justify-content-end topbar">
         <div class="me-3">
           <a class="text-reset" href="mailto:info@example.com">ask@bheuni.io</a>
@@ -115,12 +114,12 @@
 
   @yield('content')
   <!-- Footer section start -->
-  <footer class="primary-color pt-5 pb-2 footer-menubar">
+  <footer class="highligh-primary pt-5 pb-2 footer-menubar">
     <div class="container">
       <div class="row">
         <!-- Column 1 - Contact Us -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary">Contact Us</h6>
+          <h6 class="secondary-color">Contact Us</h6>
           <p>11 Beaufort Court, Admirals Way,<br>
             Canary Wharf, London <br> United Kingdom
             E149XL</p>
@@ -129,7 +128,7 @@
         </div>
         <!-- Column 2 - About -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary ms-md-3">About</h6>
+          <h6 class="secondary-color ms-md-3">About</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Home</a></li>
             <li><a class="text-white" href="#">We Are</a></li>
@@ -141,7 +140,7 @@
         </div>
         <!-- Column 3 - Links -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary ms-md-3">Links</h6>
+          <h6 class="secondary-color ms-md-3">Links</h6>
           <ul class="list-unstyled">
             <li><a class="text-white" href="#">Become a agent</a></li>
             <li><a class="text-white" href="#">Accommodation</a></li>
@@ -153,7 +152,7 @@
         </div>
         <!-- Column 4 - App Download -->
         <div class="col-md-3 col-12">
-          <h6 class="highligh-secondary">Get Mobile App</h6>
+          <h6 class="secondary-color">Get Mobile App</h6>
           <div class="my-3 d-flex flex-column">
             <img class="img-fluid" src="{{ asset('front/img/Mobile app store badge.png') }}" alt="" width="130px">
             <img class="img-fluid pt-2" src="{{ asset('front/img/Mobile app store badge-ggl.png') }}" alt="" width="130px">
@@ -163,32 +162,11 @@
     </div>
     <!-- Footer Bottom - Copyright Text -->
     <div class="container text-center mt-3">
-      <small><hr> © Copyright 2023. All Rights Reserved. Developed by <a class="text-reset" href=""><span class="highligh-secondary"> Digital Planet</span></a></small>
+      <small><hr> © Copyright 2023. All Rights Reserved. Developed by <a class="text-reset" href=""><span class="secondary-color"> Digital Planet</span></a></small>
     </div>
   </footer>
 
   <!-- Footer section end -->
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script>
-    // Counting Animation
-    $(document).ready(function() {
-      $('.counting-number').each(function() {
-        $(this).prop('Counter', 0).animate({
-          Counter: $(this).data('count')
-        }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function(now) {
-            $(this).text(Math.ceil(now));
-          }
-        });
-      });
-    });
-  </script>
 </body>
 </html>
