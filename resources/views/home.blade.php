@@ -180,7 +180,7 @@
                 <div class="card border-0 shadow">
                     <img src="{{ asset('front/img/home/Rectangle 6994.png') }}" class="card-img-top img-fluid" alt="..." style="max-height: 200px;">
                     <div class="card-body p-5">
-                        <p class="card-text secondary-color pt-2 fw-bold">Flight  Booking</p>
+                        <p class="card-text secondary-color fw-bold">Flight  Booking</p>
                         <h5 class="card-title primary-color py-4 fw-bold">Effortless Flight Booking: Simplified <br> and Seamless</h5>
                         <a href="" class="px-4 py-2 common-button rounded-pill mt-5">Book Your Flight</a>
                     </div>
@@ -190,7 +190,7 @@
                 <div class="card border-0 shadow">
                     <img src="{{ asset('front/img/home/Rectangle 6994-1.png') }}" class="card-img-top img-fluid" alt="..." style="max-height: 200px;">
                     <div class="card-body p-5">
-                        <p class="card-text secondary-color pt-2 fw-bold">Accommodations</p>
+                        <p class="card-text secondary-color fw-bold">Accommodations</p>
                         <h5 class="card-title primary-color py-4 fw-bold">Seamless Accommodation Booking: Effortlessly Reserve Your Stay</h5>
                         <a href="" class="px-4 py-2 common-button rounded-pill mt-5">Book Now</a>
                     </div>
