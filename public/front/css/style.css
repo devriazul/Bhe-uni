@@ -35,7 +35,7 @@ body{
 }
 .highligh-secondary{
     background-color:#F37124 !important;
-    color:white ;
+    color: white !important;;
 }
 .secondary-light-background{
   background-color: #FEF1E9;
@@ -60,7 +60,16 @@ a{
   background: url('../img/home/Wave.png');
   background-size:cover;
 }
-
+.fees-section{
+  background: url('../img/home/Wave.png');
+  background-color: #20356D;
+  background-size:cover;
+}
+.fees-card{
+  background-color: #939ED0!important;
+  border-radius: 25px!important;
+  box-shadow: 0px 4px 4px 0px rgba(223, 197, 197, 0.25), 1px 3px 10px 1px rgba(0, 0, 0, 0.10) inset;
+}
 .footer-menubar{
   background: url('../img/img_footer.png');
   background-color: #20356D;

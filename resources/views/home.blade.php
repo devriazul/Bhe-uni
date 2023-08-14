@@ -368,5 +368,78 @@
     </div>
 {{-- Video section End --}}
 
+{{-- Fees section Start --}}
+    <div class="fees-section my-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-8 d-flex align-items-center">
+                    <img src="{{ asset('front/img/home/Vector Smart Objecaat 1.png') }}" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-4 py-5 pe-5">
+                    <h3 class="text-white fw-bold text-center py-2">Fees Calculator</h3>
+                    <div class="card fees-card px-4 py-3">
+                        <div>
+                            <div class="py-3">
+                                <select class="form-select rounded-pill text-black-50" aria-label="Default select example">
+                                    <option selected>Select Country</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="pb-3">
+                                <select class="form-select rounded-pill text-black-50" aria-label="Default select example">
+                                    <option selected>Select University</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="pb-3">
+                                <select class="form-select rounded-pill text-black-50" aria-label="Default select example">
+                                    <option selected>Select Course</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="pb-3">
+                                <input class="form-check-input" type="radio" name="checkoutOption" value="euuk" aria-label="Radio button for following text input">
+                                <span class="text-white">EU & UK</span>
+                                <input class="form-check-input ms-3" type="radio" name="checkoutOption" value="international" aria-label="Radio button for following text input">
+                                <span class="text-white">International</span>
+                            </div>
+                            <div class="pb-3">
+                                <select class="form-select rounded-pill text-black-50" aria-label="Default select example">
+                                    <option selected>Schoolarship</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="pb-3">
+                                <select class="form-select rounded-pill text-black-50" aria-label="Default select example">
+                                    <option selected>Fees Conversion</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <a class="fw-bold highligh-secondary btn px-3 py-2 rounded-pill">Calculate Fees</a>
+                                </div>
+                                <div>
+                                    <p class="fw-bold px-2 fs-4 text-white">£ 10,900</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Fees section End --}}
+
 
 @endsection
