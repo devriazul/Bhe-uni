@@ -102,45 +102,39 @@
                         <div class="carousel-inner px-5">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="col-6 col-lg-2 align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/aru-2.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Keela-logo.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Kings-Edu-for-life.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Kins-Stage-B-S.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Malvern-house-london.webp') }}" alt="">
-                                    </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
-                                        <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Nord_Anglia_Education.webp') }}" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-6 col-lg-2 align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/North-London-Grammar-School.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/oxford-logo.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Study-Group.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/UCA.webp') }}" alt="">
                                     </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
+                                    <div class="col align-self-center">
                                         <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/uclan-logo.webp') }}" alt="">
-                                    </div>
-                                    <div class="col-6 col-lg-2  align-self-center">
-                                        <img class="img-fluid d-block w-100 px-4 py-2 mb-3 bg-w border rounded-3" src="{{ asset('front/img/uni-logo/Ravensbourne-Uni.webp') }}" alt="">
                                     </div>
                                 </div>
                             </div>
