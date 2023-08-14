@@ -7,8 +7,8 @@
                 <div class="primary-color">
                     <h1 class="fw-bold">Unlock Your Potential with BHE</h1>
                     <p class="py-3">Boost Education Service has undergone a strategic transformation. It is now an AI-powered EdTech platform. Our primary objective is to facilitate your seamless integration with renowned universities and colleges worldwide. Our advanced technology-driven platform now empowers our students to leverage global educational opportunities more adeptly.</p>
-                    <button>Check Eligibility</button>
-                    <button>Apply Now</button>
+                    <a href=""><img class="img-fluid" src="{{ asset('front/img/home/BTN XL.png') }}" alt=""></a>
+                    <a href="" class="px-4 py-3 common-button rounded-pill my-5 ms-3">Apply Now</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -434,6 +434,5 @@
         </div>
     </div>
 {{-- Fees section End --}}
-
 
 @endsection
