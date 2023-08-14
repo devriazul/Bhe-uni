@@ -369,7 +369,7 @@
                 <div class="col-md-8 d-flex align-items-center">
                     <img src="{{ asset('front/img/home/Vector Smart Objecaat 1.png') }}" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-4 py-5 pe-5">
+                <div class="col-md-4 py-5 pe-md-5">
                     <h3 class="text-white fw-bold text-center py-2">Fees Calculator</h3>
                     <div class="card fees-card px-4 py-3">
                         <div>
@@ -434,5 +434,69 @@
         </div>
     </div>
 {{-- Fees section End --}}
+
+{{-- Event section Start --}}
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h6 class="secondary-color fw-bold">Upcoming</h6>
+                <h3 class="primary-color fw-bold">Events</h3>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between px-3">
+                        <div class="primary-color">
+                            <h4>UK University</h4>
+                            <h4 class="fw-bold">Education Fair 2021</h4>
+                        </div>
+                        <div class="secondary-color">
+                            <p><img class="img-fluid" src="{{ asset('front/img/home/Vector (Stroke).png') }}" alt=""> 3rd June & 16 June</p>
+                            <p><img class="img-fluid" src="{{ asset('front/img/home/icon _clock_.png') }}" alt=""> 11:00 AM - 12:00 PM - UK</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid rounded p-3" src="{{ asset('front/img/home/Rectangle 7045.png') }}" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row py-2">
+                            <div class="col-md-6">
+                                <img class="img-fluid rounded" src="{{ asset('front/img/home/website-event-image-03.png') }}" alt="">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="row">
+                                    <div class="primary-color">
+                                        <h4>UK University</h4>
+                                        <h4 class="fw-bold">Education Fair 2021</h4>
+                                    </div>
+                                    <div class="secondary-color">
+                                        <p><img class="img-fluid" src="{{ asset('front/img/home/Vector (Stroke).png') }}" alt=""> 3rd June & 16 June</p>
+                                        <p><img class="img-fluid" src="{{ asset('front/img/home/icon _clock_.png') }}" alt=""> 11:00 AM - 12:00 PM - UK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-md-6">
+                                <img class="img-fluid rounded" src="{{ asset('front/img/home/website-event-image-02.png') }}" alt="">
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <div class="row">
+                                    <div class="primary-color">
+                                        <h4>UK University</h4>
+                                        <h4 class="fw-bold">Education Fair 2021</h4>
+                                    </div>
+                                    <div class="secondary-color">
+                                        <p><img class="img-fluid" src="{{ asset('front/img/home/Vector (Stroke).png') }}" alt=""> 3rd June & 16 June</p>
+                                        <p><img class="img-fluid" src="{{ asset('front/img/home/icon _clock_.png') }}" alt=""> 11:00 AM - 12:00 PM - UK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Event section End --}}
 
 @endsection
