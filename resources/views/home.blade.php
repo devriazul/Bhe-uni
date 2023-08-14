@@ -440,7 +440,7 @@
         <div class="row">
             <div class="text-center">
                 <h6 class="secondary-color fw-bold">Upcoming</h6>
-                <h3 class="primary-color fw-bold">Events</h3>
+                <h2 class="primary-color fw-bold">Events</h2>
             </div>
             <div class="row p-5">
                 <div class="col-md-6">
@@ -499,4 +499,152 @@
     </div>
 {{-- Event section End --}}
 
+{{-- Deadline section Start --}}
+    <div class="container py-3">
+        <div class="row">
+            <div class="text-center py-3">
+                <h6 class="secondary-color fw-bold">Upcoming</h6>
+                <h2 class="primary-color fw-bold">Deadlines</h2>
+            </div>
+            <div class="col-md-4">
+                <img src="{{ asset('front/img/home/Group 11.png') }}" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ asset('front/img/home/Group 12.png') }}" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ asset('front/img/home/Group 13.png') }}" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+{{-- Deadline section End --}}
+
+{{-- APP section Start --}}
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="app-download">
+                    <h6 class="secondary-color fw-bold">iOS & Android App</h6>
+                    <h2 class="primary-color fw-bold">Get Our Mobile App Now</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <a href=""><img src="{{ asset('front/img/home/Mobile app store badge.png') }}" class="img-fluid pe-3" alt="..."></a>
+                    <a href=""><img src="{{ asset('front/img/home/Mobile app store badge-1.png') }}" class="img-fluid" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ asset('front/img/home/App Mock.png') }}" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+{{-- APP section End --}}
+
+{{-- Feedback section Start --}}
+    <div class="container pb-5">
+        <div class="row">
+            <div class="text-center py-5">
+                <h6 class="secondary-color fw-bold">Feedback From</h6>
+                <h2 class="primary-color fw-bold">Our Students</h2>
+            </div>
+            <div class="col-md-4 secondary-color">
+                <div class="feedback-card py-2">
+                    <div class="row px-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="{{ asset('front/img/home/Rectangle 41.png') }}" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5">
+                            <h5 class="fw-bold">Tasfid Mahfuj</h5>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                    <p class="px-4 pb-5"><small>Great service for the student who wishes to study further to pursue their dreams. Staffs are adequately trained and very professional
+                        with supportive and helpful manner. For the new comers the service is precise as the staffs are always ready to serve the students at their best level and I wish all the best to Boost 
+                        education service also thanks indeed to BES for supporting me in the way of making may dream come true.”</small></p>
+                </div>
+            </div>
+            <div class="col-md-4 secondary-color">
+                <div class="feedback-card py-2">
+                    <div class="row px-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="{{ asset('front/img/home/Rectangle 41 (1).png') }}" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5">
+                            <h5 class="fw-bold">Srabony Roy</h5>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                    <p class="px-4 pb-5"><small>Great service for the student who wishes to study further to pursue their dreams. Staffs are adequately trained and very professional
+                        with supportive and helpful manner. For the new comers the service is precise as the staffs are always ready to serve the students at their best level and I wish all the best to Boost 
+                        education service also thanks indeed to BES for supporting me in the way of making may dream come true.”</small></p>
+                </div>
+            </div>
+            <div class="col-md-4 secondary-color">
+                <div class="feedback-card py-2">
+                    <div class="row px-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="{{ asset('front/img/home/Rectangle 41 (2).png') }}" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5">
+                            <h5 class="fw-bold">Tarek Rahman</h5>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                    <p class="px-4 pb-5"><small>Great service for the student who wishes to study further to pursue their dreams. Staffs are adequately trained and very professional
+                        with supportive and helpful manner. For the new comers the service is precise as the staffs are always ready to serve the students at their best level and I wish all the best to Boost 
+                        education service also thanks indeed to BES for supporting me in the way of making may dream come true.”</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Feedback section End --}}
+
+{{-- Apply section Start --}}
+    <div class="highligh-primary my-5">
+        <div class="container">
+            <div class="row px-5">
+                <div class="col-md-8 d-flex align-items-center">
+                    <div class="col">
+                        <p>Easy Apply</p>
+                        <h2 class="fw-bold pb-3">Submit. We'll Handle the Rest</h2>
+                        <a href="" class="px-4 py-2 footer-button rounded-pill my-5">Apply Now</a>
+                        <a href="" class="px-4 py-2 footer-button rounded-pill my-5 ms-3">Get Help</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ asset('front/img/home/Group.png') }}" class="img-fluid" alt="..." style="margin-top: -130px">
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Apply section End --}}
+
+<!-- Share section Start -->
+    <section class="px-5 pt-5" style="margin-bottom: -30px">
+        <div class="container px-md-5">
+        <div class="card px-md-5 highligh-secondary mx-md-5">
+            <div class="card-body px-md-5">
+                <div class="row px-md-5">
+                    <!-- Column 1 - Image -->
+                        <div class="col-md-2 ps-md-5 d-flex justify-content-center">
+                            <img src="{{ asset('front/img/share-vector.png') }}" alt="Share Image" class="img-fluid">
+                        </div>
+                        <!-- Column 2 - Text -->
+                        <div class="col-md-5 pt-4">
+                            <h3 class="text-left ps-md-5">Share with <br>friend and family</h3>
+                        </div>
+                        <!-- Column 3 - Social Media Icons -->
+                        <div class="col-md-5">
+                        <div class="d-flex justify-content-center pt-5">
+                            <!-- Replace the links with actual social media share URLs -->
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=career.bheuni.io" class="me-3" target="_blank"><img src="{{ asset('front/img/share-social-icon-01.png') }}" alt=""></a>
+                            <a href="https://twitter.com/intent/tweet?url=career.bheuni.io" class="me-3" target="_blank"><img src="{{ asset('front/img/share-social-icon-02.png') }}" alt=""></a>
+                            <a href="https://www.linkedin.com/shareArticle?url=career.bheuni.io" class="me-3" target="_blank"><img src="{{ asset('front/img/share-social-icon-03.png') }}" alt=""></a>
+                            <a href="https://www.instagram.com/share?url=career.bheuni.io" class="me-3" target="_blank"><img src="{{ asset('front/img/share-social-icon-04.png') }}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+  <!-- Share section End -->
 @endsection

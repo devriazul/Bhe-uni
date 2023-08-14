@@ -75,6 +75,16 @@ a{
   border-radius: 25px!important;
   box-shadow: 0px 4px 4px 0px rgba(223, 197, 197, 0.25), 1px 3px 10px 1px rgba(0, 0, 0, 0.10) inset;
 }
+.feedback-card{
+  background: url('../img/home/Union.png');
+  background-size:contain, cover;
+  background-repeat: no-repeat;
+}
+.footer-button{
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 600;
+}
 .footer-menubar{
   background: url('../img/img_footer.png');
   background-color: #20356D;

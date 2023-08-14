@@ -115,7 +115,7 @@
   @yield('content')
   <!-- Footer section start -->
   <footer class="highligh-primary pt-5 pb-2 footer-menubar">
-    <div class="container">
+    <div class="container py-4">
       <div class="row">
         <!-- Column 1 - Contact Us -->
         <div class="col-md-3 col-12">
