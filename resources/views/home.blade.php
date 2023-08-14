@@ -177,7 +177,7 @@
     <div class="container my-md-5">
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center px-5 py-4 py-md-0">
-                <div class="card border-0 shadow">
+                <div class="card border-0 bg-light">
                     <img src="{{ asset('front/img/home/Rectangle 6994.png') }}" class="card-img-top img-fluid" alt="..." style="max-height: 200px;">
                     <div class="card-body p-5">
                         <p class="card-text secondary-color fw-bold">Flight  Booking</p>
@@ -187,7 +187,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center px-5 py-4 py-md-0">
-                <div class="card border-0 shadow">
+                <div class="card border-0 bg-light">
                     <img src="{{ asset('front/img/home/Rectangle 6994-1.png') }}" class="card-img-top img-fluid" alt="..." style="max-height: 200px;">
                     <div class="card-body p-5">
                         <p class="card-text secondary-color fw-bold">Accommodations</p>
