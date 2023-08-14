@@ -595,6 +595,17 @@
             </div>
         </div>
     </div>
+    <div class="container pb-5">
+        <div class="row mb-5">
+            <div class="text-center">
+                <a href=""><img src="{{ asset('front/img/home/Ellipse 22.svg') }}" class="img-fluid me-3" alt="..." style="width: 20px"></a>
+                <a href=""><img src="{{ asset('front/img/home/Ellipse 20.svg') }}" class="img-fluid me-3" alt="..." style="width: 20px"></a>
+                <a href=""><img src="{{ asset('front/img/home/Ellipse 20.svg') }}" class="img-fluid me-3" alt="..." style="width: 20px"></a>
+                <a href=""><img src="{{ asset('front/img/home/Ellipse 20.svg') }}" class="img-fluid me-3" alt="..." style="width: 20px"></a>
+                <a href=""><img src="{{ asset('front/img/home/Ellipse 20.svg') }}" class="img-fluid me-3" alt="..." style="width: 20px"></a>
+            </div>
+        </div>
+    </div>
 {{-- Feedback section End --}}
 
 {{-- Apply section Start --}}
@@ -610,7 +621,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="{{ asset('front/img/home/Group.png') }}" class="img-fluid" alt="..." style="margin-top: -130px">
+                    <img src="{{ asset('front/img/home/Group.png') }}" class="img-fluid" alt="..." style="margin-top: -120px">
                 </div>
             </div>
         </div>
