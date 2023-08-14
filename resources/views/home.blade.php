@@ -153,24 +153,24 @@
 {{-- Search Section End --}}
 
 {{-- Schoolarship section start --}}
-<div class="secondary-light-background">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="{{ asset('front/img/home/Rectangle 7009.png') }}" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-6 d-flex align-items-center">
-                <div>
-                    <h5 class="secondary-color fw-bold">Scholarship</h5>
-                    <h3 class="primary-color fw-bold">and Funding</h3>
-                    <p>BHE Uni, we are dedicated to helping students worldwide achieve their dreams of studying in prestigious universities in the UK, USA, Canada and Australia. Through our comprehensive scholarship and funding services, we provide specific scholarships and bursaries...</p>
-                    <button>Read More</button>
-                    <button>Make Enquiry</button>
+    <div class="secondary-light-background">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{ asset('front/img/home/Rectangle 7009.png') }}" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h5 class="secondary-color fw-bold">Scholarship</h5>
+                        <h3 class="primary-color fw-bold">and Funding</h3>
+                        <p>BHE Uni, we are dedicated to helping students worldwide achieve their dreams of studying in prestigious universities in the UK, USA, Canada and Australia. Through our comprehensive scholarship and funding services, we provide specific scholarships and bursaries...</p>
+                        <button>Read More</button>
+                        <button>Make Enquiry</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {{-- Schoolarship section End --}}
 
 {{-- Book & Accommodation section Start --}}
@@ -310,4 +310,63 @@
         </div>
     </div>
 {{-- Immigration and Visa Assistance section End --}}
+
+{{-- Video section Start --}}
+    <div class="ielts-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="fw-bold secondary-color">Featured Course</h5>
+                    </div>
+                    <div>
+                        <a class="px-2 py-1 border" href=""><img src="{{ asset('front/img/home/left.png') }}" alt=""></a>
+                        <a class="px-2 py-1 border" href=""><img src="{{ asset('front/img/home/right.png') }}" alt=""></a>                        
+                    </div>
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="card">
+                        <img src="{{ asset('front/img/home/course-ielts 1.png') }}" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body px-3">
+                          <h6 class="card-title fw-bold pt-2 pb-3">FluencyFocus: IELTS Express Speaking Course</h6>
+                          <div class="card-text d-flex justify-content-between">
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_user-bold.png') }}" alt=""> Munzereen Shahid</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_clock.png') }}" alt=""> 20 Hours</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/material-symbols_category-outline.png') }}" alt=""> IELTS</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="card">
+                        <img src="{{ asset('front/img/home/course-ielts 2.png') }}" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body px-3">
+                          <h6 class="card-title fw-bold pt-2">IELTS Success Blueprint: Mastering Academic and General Training | Real Exam!</h6>
+                          <div class="card-text d-flex justify-content-between">
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_user-bold.png') }}" alt=""> Sara Tabassum</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_clock.png') }}" alt=""> 72 Hours</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/material-symbols_category-outline.png') }}" alt=""> IELTS</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="card">
+                        <img src="{{ asset('front/img/home/course-ielts 3.png') }}" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body px-3">
+                          <h6 class="card-title fw-bold pt-2">SpeakSmart IELTS Mastery: Fluent Communication Course</h6>
+                          <div class="card-text d-flex justify-content-between">
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_user-bold.png') }}" alt=""> Munzereen Shahid</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/ph_clock.png') }}" alt=""> 20 Hours</a>
+                            <a class="text-dark" href=""><img class="img-fluid" src="{{ asset('front/img/home/material-symbols_category-outline.png') }}" alt=""> IELTS</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- Video section End --}}
+
+
 @endsection

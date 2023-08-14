@@ -56,6 +56,11 @@ a{
 .border-left{
   border-left: 2px solid white;
 }
+.ielts-section{
+  background: url('../img/home/Wave.png');
+  background-size:cover;
+}
+
 .footer-menubar{
   background: url('../img/img_footer.png');
   background-color: #20356D;
